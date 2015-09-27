@@ -1,9 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>hello world</title>
+	<title>Jessica Morrison</title>
+	<meta charset="UTF-8" />
+	<link href="lib/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="lib/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+	<style type="text/css">
+		.jumbotron {
+			background: url(images/home-background.jpg) center center no-repeat;
+			background-size: cover;
+			height: 300px;
+			margin-bottom: 0;
+		}
+		.about-jess {
+			position: relative;
+		}
+		.mugshot {
+			position: absolute;
+			top: -275px;
+			right: 0;
+			left: 0;
+			margin: auto;
+			width: 250px;
+			z-index: 10;
+		}
+		@media (min-width: 768px) {
+			.mugshot {
+				left: auto;
+				margin: 0;
+			}
+		}
+		@media (min-width: 1200px) {
+			.mugshot {
+				top: -190px;
+			}
+		}
+		.twitter-timeline {
+			margin-top: 20px !important;
+		}
+		.caption h4 {
+			margin-top: 0;
+		}
+	</style>
 </head>
 <body>
-this my body, given for you. 
+	<div class="jumbotron">
+	</div>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
+					<li><a href="#">PORTFOLIO</a></li>
+					<li><a href="#">GIFs</a></li>
+					<li><a href="#">INSPIRATION</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+	<div class="container">
+		<div class="row">
+		  <div class="col-md-8 about-jess">
+		  	<h1> ABOUT JESSICA MORRISON</h1>
+		  	<blockquote>
+  				<p>&#8220;Let's make friends with the cool kids just this once, she says, and doesn't blink at all.&#8221; &#8212; <a href="www.youtube.com/watch?v=pum8QxY_vN8"> <i>Hallie and Henry</i></a>, Say Hi</p>
+			</blockquote>
+			<img src="images/Morrison_Photo.jpg" class="img-thumbnail mugshot" />
+			<p>Jessica Morrison is what happens when genteel and hustle meet. One part side-eye, and three parts just excited to be here, you'll never regret glimpsing her passion.</p>
+			<p>Jessica spends her days reporting and writing about science and technology policy for <a href="http://cen.acs.org/">Chemical &amp; Engineering News</a>, the weekly news magazine of the American Chemical Society. She's excited about creating memorable user experiences, building community on-line and off, and changing the culture of work. </p>
+			<p>There's a good chance you've seen her at a <a href="https://twitter.com/hashtag/DCTech">#DCTech</a> event. Say hi. ❤︎</p>
+			<h2>A GOOD BODY OF WORK</h2>
+			<div class="row">
+      			<div class="col-md-4">
+      				<div class="thumbnail">
+      					<img src="/images/chemojiall.png" class="img-responsive" alt="ACS Chemoji">
+      					<div class="caption">
+        					<h4>Mobile App: Chemoji</h4>
+        					<p>ACS Chemoji is here! Chemoji is emoji for chemists. The American Chemical Society launched an app in August to help chemists communicate visually on social media.</p>
+        					<p><a href="#">READ MORE</a></p>
+      					</div>
+      				</div>	
+      			</div>
+      			<div class="col-md-4">
+      				<div class="thumbnail">
+      					<img src="/images/t12image.png" class="img-responsive" alt="C&amp;EN's T12">
+      					<div class="caption">
+        					<h4>Quiz: Meet The T12</h4>
+        					<p>Quizmaster Jessica Morrison gives a glimpse into the lives of C&amp;EN's Talented 12 when they’re not in the lab. Can you guess which little-known fact belongs to each person?</p>
+        					<p><a href="#">READ MORE</a></p>
+      					</div>
+      				</div>
+      			</div>
+      			<div class="col-md-4">
+      				<div class="thumbnail">
+      					<img src="/images/frackmap.png" class="img-responsive" alt="Tracking Fracking">
+      					<div class="caption">
+        					<h4>Newsapp: Frack Map</h4>
+        					<p>Some states require fracking chemical disclosure to FracFocus, others require submission to a state agency, and nearly all allow a measure of trade-secret protection.</p>
+        					<p><a href="#">READ MORE</a></p>
+      					</div>
+      				</div>
+      			</div>
+      		</div>		
+		  </div>
+		  <div class="col-md-4">
+		  	<div>
+		  		<a class="twitter-timeline" href="https://twitter.com/ihearttheroad" data-widget-id="647966563807555584">Tweets by @ihearttheroad</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+			<div>
+				<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+				<script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/ihearttheroad" data-format="inline" data-related="false"></script>
+			</div>
+			<div>
+				<a data-pin-do="embedUser" href="https://www.pinterest.com/ihearttheroad/"data-pin-scale-width="80" data-pin-scale-height="200" data-pin-board-width="400">    Visit Jessica's profile on Pinterest.</a><!-- Please call pinit.js only once per page --><script type="text/javascript" async src="//assets.pinterest.com/js/pinit.js"></script>    
+			</div>
+		  </div>
+		</div>
+	</div>
 </body>
 </html>
