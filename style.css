@@ -39,3 +39,13 @@
 		.footer .container p {
 			padding-top: 15px;
 		}
+		.subcontact {
+			margin-top: 0;
+			margin-bottom: 30px;
+		}
+		.contacttitle {
+			margin-bottom: 0;
+		}
+		.contactsig {
+			margin-top: 30px;
+		}
