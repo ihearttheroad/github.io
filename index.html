@@ -5,43 +5,7 @@
 	<meta charset="UTF-8" />
 	<link href="lib/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="lib/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" rel="stylesheet">
-	<style type="text/css">
-		.jumbotron {
-			background: url(images/home-background.jpg) center center no-repeat;
-			background-size: cover;
-			height: 300px;
-			margin-bottom: 0;
-		}
-		.about-jess {
-			position: relative;
-		}
-		.mugshot {
-			position: absolute;
-			top: -275px;
-			right: 0;
-			left: 0;
-			margin: auto;
-			width: 250px;
-			z-index: 10;
-		}
-		@media (min-width: 768px) {
-			.mugshot {
-				left: auto;
-				margin: 0;
-			}
-		}
-		@media (min-width: 1200px) {
-			.mugshot {
-				top: -190px;
-			}
-		}
-		.twitter-timeline {
-			margin-top: 20px !important;
-		}
-		.caption h4 {
-			margin-top: 0;
-		}
-	</style>
+	<link href="style.css" rel="stylesheet">
 </head>
 <body>
 	<div class="jumbotron">
@@ -62,7 +26,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
-					<li><a href="#">PORTFOLIO</a></li>
+					<li><a href="/portfolio.html">PORTFOLIO</a></li>
 					<li><a href="#">GIFs</a></li>
 					<li><a href="#">INSPIRATION</a></li>
 					<li><a href="#">CONTACT</a></li>
@@ -131,5 +95,10 @@
 		  </div>
 		</div>
 	</div>
+	<nav class="navbar navbar-default footer">
+	  <div class="container">
+	    <p>Jessica Morrison &copy; 2015</p>
+	  </div>
+	</nav>
 </body>
 </html>
